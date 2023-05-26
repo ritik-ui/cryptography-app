@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Register"
+    android:background="#030303"
+    android:orientation="vertical"
+
+    >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerInParent="true"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp">
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Welcome to  Ray Crypto"
+                    android:layout_marginTop="10dp"
+                    android:src="@drawable/ray_crypto2"
+
+
+
+
+                    >
+
+
+                </ImageView>
+
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:text=" A New Platform To Learn And Perform \n Cryptography on Various Tools"
+                android:textSize="18dp"
+                android:gravity="center|left"
+                android:paddingBottom="20dp"
+                android:textStyle="bold"
+                android:paddingLeft="20dp"
+                android:textColor="#39ff14"/>
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="560dp"
+
+                >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/top_round"
+                    android:elevation="10dp"
+                    >
+
+                </ImageView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="25dp"
+                    android:layout_marginRight="15dp"
+                    android:layout_marginLeft="10dp"
+                    android:elevation="10dp"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="5dp"
+                        android:text="REGISTER"
+                        android:fontFamily="@font/poppins_regular"
+                        android:textStyle="bold"
+                        android:textSize="24dp"
+                        android:textColor="#39ff14"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="15dp">
+
+
+                    </TextView>
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="15dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:textSize="14dp"
+                            android:text="Email"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#39ff14"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/emailEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="0dp"
+                            android:layout_marginRight="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:maxLines="1"
+                            android:gravity="bottom"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="15dp"
+                            android:textColor="#39ff14"
+                            android:textSize="15dp"
+                            android:paddingBottom="5dp"
+                            android:background="@android:color/transparent">
+
+
+
+
+                        </EditText>
+
+
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#39ff14"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="15dp"
+                        ></View>
+
+
+
+
+
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="5dp"
+                            android:textSize="14dp"
+                            android:text="Mobile Number"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#39ff14"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/mobileEditText"
+                            android:layout_width="match_parent"
+
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="25dp"
+                            android:layout_marginRight="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:background="@android:color/transparent"
+                            android:paddingRight="15dp"
+                            android:textColor="#39ff14"
+                            android:maxLength="10"
+                            android:inputType="number"
+                            android:maxLines="1"
+                            android:textColorHint="#39ff14"
+                            android:gravity="bottom"
+                            android:paddingBottom="5dp"
+                            android:textSize="15dp">
+
+                        </EditText>
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#39ff14"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="15dp"
+                        ></View>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:textSize="14dp"
+                            android:text="Password"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#39ff14"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/registerPasswordEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint=""
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="15dp"
+                            android:textColor="#39ff14"
+                            android:maxLength="12"
+                            android:inputType="textPassword"
+                            android:maxLines="1"
+                            android:gravity="bottom"
+                            android:paddingBottom="5dp"
+
+                            android:textSize="15dp">
+
+
+                        </EditText>
+
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#39ff14"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="15dp"
+                        ></View>
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="10dp">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="0dp"
+                            android:textSize="14dp"
+                            android:text="Confirm Password"
+                            android:fontFamily="@font/poppins_regular"
+                            android:textColor="#39ff14"
+                            android:paddingLeft="25dp"
+                            android:paddingRight="15dp"
+                            >
+
+                        </TextView>
+
+                        <EditText
+                            android:id="@+id/confirmPasswordEditText"
+                            android:layout_width="match_parent"
+                            android:layout_height="60dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginRight="15dp"
+                            android:fontFamily="@font/poppins_regular"
+                            android:hint=""
+                            android:background="@android:color/transparent"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="15dp"
+                            android:textColor="#39ff14"
+                            android:maxLines="1"
+                            android:maxLength="12"
+                            android:inputType="textPassword"
+                            android:gravity="bottom"
+                            android:paddingBottom="5dp"
+                            android:textSize="15dp">
+
+
+                        </EditText>
+
+
+
+
+                    </RelativeLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:background="#39ff14"
+                        android:layout_marginLeft="25dp"
+                        android:layout_marginRight="15dp"
+                        ></View>
+
+
+                    <ImageView
+                        android:id="@+id/registerButtonImageView"
+                        android:layout_width="70dp"
+                        android:layout_height="60dp"
+                        android:layout_gravity="right"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginRight="20dp"
+                        android:padding="5dp"
+
+                        android:src="@drawable/arrow">
+
+                    </ImageView>
+
+                    <TextView
+                        android:layout_marginTop="40dp"
+                        android:id="@+id/alreadyAccountButtonImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:gravity="center"
+                        android:text="Already Have an Account , Login here ."
+                        android:textColor="#39ff14"
+
+
+                        android:textSize="16dp">
+
+                    </TextView>
+
+
+                </LinearLayout>
+
+
+
+            </FrameLayout>
+            
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ProgressBar
+            android:id="@+id/registerProgressBar"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginTop="580dp"
+            android:layout_marginLeft="150dp"
+            android:outlineSpotShadowColor="@color/green"
+            android:outlineAmbientShadowColor="@color/green"
+            android:visibility="invisible"
+            android:indeterminateTint="@color/green"
+            ></ProgressBar>
+    </RelativeLayout>
+
+
+</RelativeLayout>

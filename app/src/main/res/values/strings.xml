@@ -1,0 +1,200 @@
+<resources>
+    <string name="app_name">Ray Crypto</string>
+    <string name="title_activity_navigation__drawer">Navigation_Drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <string name="text8">
+
+        WHAT IS ENCRYPTION?
+
+
+    </string>
+
+
+    <string name="text">
+
+        Encryption is the process of translating plain text data (plaintext) into something that appears to be random and meaningless (ciphertext). Decryption is the process of converting ciphertext back to plaintext.
+
+To encrypt more than a small amount of data, symmetric encryption is used. A symmetric key is used during both the encryption and decryption processes. To decrypt a particular piece of ciphertext, the key that was used to encrypt the data must be used.
+
+The goal of every encryption algorithm is to make it as difficult as possible to decrypt the generated ciphertext without using the key. If a really good encryption algorithm is used, there is no technique significantly better than methodically trying every possible key. For such an algorithm, the longer the key, the more difficult it is to decrypt a piece of ciphertext without possessing the key.
+
+It is difficult to determine the quality of an encryption algorithm. Algorithms that look promising sometimes turn out to be very easy to break, given the proper attack. When selecting an encryption algorithm, it is a good idea to choose one that has been in use for several years and has successfully resisted all attacks.\n\n\n
+
+
+
+
+
+
+    </string>
+
+    <string name="text9">
+
+        (AES) ADVANCE ENCRYPTION STANDARD:-
+
+
+
+
+    </string>
+
+    <string name="text10">
+
+        Advanced Encryption Standard\n
+    </string>
+    <string name="text1">
+
+        Advanced Encryption Standard\n\n
+         The Advanced Encryption Standard (AES), also known by its original name Rijndael (Dutch pronunciation.\n\nIs a specification for the encryption of electronic data established by the U.S. National Institute of Standards and Technology (NIST) in 2001.
+AES is a subset of the Rijndael block cipher developed by two Belgian cryptographers, Vincent Rijmen and Joan Daemen, who submitted a proposal to NIST during the AES selection process.] Rijndael is a family of ciphers with different key and block sizes. For AES, NIST selected three members of the Rijndael family, each with a block size of 128 bits, but three different key lengths: 128, 192 and 256 bits.
+AES has been adopted by the U.S. government.\n\n It supersedes the Data Encryption Standard (DES), which was published in 1977. The algorithm described by AES is a symmetric-key algorithm, meaning the same key is used for both encrypting and decrypting the data.
+
+
+
+
+
+
+
+    </string>
+
+    <string name="text11">
+        (DES) DATA ENCRYPTION STANDARD:-
+    </string>
+
+    <string name="text12">
+        Data Encryption Standard:-\n
+    </string>
+
+    <string name="text2">
+
+
+
+        DES is based on the two fundamental attributes of cryptography: substitution (also called as confusion) and transposition (also called as diffusion). DES consists of 16 steps, each of which is called as a round. Each round performs the steps of substitution and transposition. Let us now discuss the broad-level steps in DES.
+1.	In the first step, the 64 bit plain text block is handed over to an initial Permutation (IP) function.
+2.	The initial permutation performed on plain text.
+3.	Next the initial permutation (IP) produces two halves of the permuted block; says Left Plain Text (LPT) and Right Plain Text (RPT).
+4.	Now each LPT and RPT to go through 16 rounds of encryption process.
+5.	In the end, LPT and RPT are rejoined and a Final Permutation (FP) is performed on the combined block
+6.	The result of this process produces 64 bit cipher text.\n\n
+
+
+
+
+
+
+    </string>
+    <string name="text13">
+        BINARY ENCRYPTION\n
+    </string>
+
+    <string name="text14">
+        BINARY ENCRYPTION:-
+
+
+    </string>
+
+    <string name="text3">
+
+        In this paper, we propose a new algorithm to encrypt binary images.
+        The proposed scheme is described in several steps.
+        In the first step, we present a new basis to reduce the amount of data required to present the image.
+        In the second step, the image is split into d blocks, which is used in new images of the same size as the original one, and represent them in the new basis to obtain a key-image and encrypted images.
+        The parameters obtained by this transformation are considered as key-image for the encryption and decryption algorithm.
+        The decryption algorithm is performed by the subtraction between each encrypted image and key-image, then summing them in an image to obtain the original one. In the same way, we can apply our proposed algorithm to encrypt a database of binary images.
+        Experimental results demonstrate the efficiency of the proposed approach.\n\n
+
+
+
+
+
+
+
+    </string>
+
+    <string name="text15">
+        CAESAR CIPHER \n
+    </string>
+
+    <string name="text16">
+         CAESAR CIPHER:-
+
+    </string>
+
+
+    <string name="text4">
+
+        In cryptography, a Caesar cipher, also known as Caesar cipher, the shift cipher, Caesar code or Caesar shift, is one of the simplest and most widely known encryption techniques.
+        \nIt is a type of substitution cipher in which each letter in the plaintext is replaced by a letter some fixed number of positions down the alphabet. For example, with a left shift of 3, D would be replaced by A, E would become B, and so on. \n The method is named after Julius Caesar, who used it in his private correspondence.[1]
+
+The encryption step performed by a Caesar cipher is often incorporated as part of more complex schemes, such as the Vigenère cipher, and still has modern application in the ROT13 system.\n
+        As with all single-alphabet substitution ciphers, the Caesar cipher is easily broken and in modern practice offers essentially no communications security.\n\n
+    </string>
+
+    <string name="text17">
+        IMAGE ENCRPTION\n\n
+    </string>
+
+    <string name="text18">
+
+        IMAGE ENCRPTION:-
+
+    </string>
+
+
+    <string name="text5">
+
+
+        Image Encryption:
+
+
+        Information security purported, yet another retrospected technique for secret sharing, highlighted by image encryption. Encryption of images is proven a successful method to communicate confidential information for which countless procedures are unearthed. Still, it continues attracting researchers as usage of images in every means of digital communication has phenomenally increased. Cryptography embraces various encryption methods and offers four chief modes where each one has found its place in many journals. This study takes cryptographic Cipher Block Chaining (CBC) mode as the fundamental footing which is manipulated in a unique fashion to achieve the goal. This script is coalescing of both Steganography and Cryptography thus ensuring enhanced security. Tentative results testify the routine and thus making it more upright of previously existing image encryption techniques.\n\n
+    </string>
+
+    <string name="text19">
+        TEXT ENCRYPTION AND DECREPTION\n
+    </string>
+
+    <string name="text20">
+
+        TEXT ENCRYPTION AND DECREPTION:-\n
+    </string>
+
+    <string name="text6">
+
+        Privacy and security are major concerns for consumers these days, and it’s smart to know the best ways to keep your data confidential and private. But what about text messages? Are they as secure as we assume they are?
+There are simple steps you can take to make your messages more secure, and it won’t cost you a lot of time or money. Here’s what you should know about encrypted text messages and how you can start sending them today. Even those with limited tech experience can get protection and keep their data safe from others.\n\n
+
+
+
+    </string>
+    <string name="text21">
+
+        FILE ENCRYPTION
+    </string>
+
+    <string name="text22">
+        FILE ENCRYPTION:-
+    </string>
+
+    <string name="text7">
+
+
+        File encryption helps protect your data by encrypting it. Only someone with the right encryption key (such as a password) can decrypt it. ... Right-click (or press and hold) a file or folder and select Properties. Select the Advanced button and select the Encrypt contents to secure data check box.\n\n\n\n
+    </string>
+
+    <string name="text23">
+
+                                - THANKYOU!!
+    </string>
+
+
+</resources>

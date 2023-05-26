@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CaesarCipher"
+    android:background="@drawable/darkbluegradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            >
+            <ImageView
+                android:id="@+id/caesarBack"
+                android:layout_width="40dp"
+                android:layout_height="35dp"
+                android:src="@drawable/back"
+                android:layout_gravity="center"
+                ></ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Caesar Cipher"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:textColor="#39ff14"
+                ></TextView>
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            >
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/ccSwitchButton"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:switchTextAppearance="@style/SwitchTextAppearance"
+            android:layout_gravity="center"
+            android:textOff=""
+            android:textOn=""
+            android:layout_margin="20dp"
+            android:thumb="@drawable/sw_thumb"
+            android:padding="10dp"
+            app:track="@drawable/sw_track"
+            app:showText="true"
+
+
+            >
+
+        </androidx.appcompat.widget.SwitchCompat>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Encrypt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#39ff14"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Decrypt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#39ff14"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+
+        </RelativeLayout>
+
+
+            <TextView
+                android:id="@+id/ccTextView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_marginLeft="15dp"
+                android:text="Enter Plain Text "
+                android:textColor="#39ff14"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"/>
+
+            <EditText
+                android:id="@+id/ccInput"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#39ff14"
+                android:background="@drawable/dark_blue_gradient_3"
+                android:elevation="6dp"
+                android:layout_margin="10dp"
+                android:gravity="left|top"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/ccTextView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textStyle="bold"
+                android:text="Enter Shift Key "
+                android:textColor="#39ff14"
+                android:textSize="20sp"
+                android:layout_marginTop="5dp"
+                android:gravity="left"/>
+
+            <EditText
+                android:id="@+id/ccInputKey"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:textColor="#39ff14"
+                android:layout_marginTop="5dp"
+                android:inputType="number"
+                android:background="@drawable/dark_blue_gradient_3"
+                android:elevation="6dp"
+                android:layout_margin="10dp"
+                android:paddingLeft="15dp"
+                />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            >
+            <Button
+                android:id="@+id/ccBtnenc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/blue_border"
+                android:text="Encrypt"
+                android:layout_margin="10dp"
+                android:textColor="#39ff14"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                android:onClick="enc">
+
+
+            </Button>
+
+            <Button
+                android:id="@+id/ccBtndec"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/blue_border"
+                android:text="DECRYPT"
+                android:layout_margin="10dp"
+                android:textColor="#39ff14"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_centerHorizontal="true"
+                android:elevation="6dp"
+                android:visibility="invisible"
+                android:onClick="dec">
+
+            </Button>
+
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <TextView
+                android:id="@+id/ccTextView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Encrypted Text"
+                android:layout_marginLeft="15dp"
+                android:textColor="#39ff14"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:layout_marginRight="50dp"
+
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/ccCopy"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/blue_border"
+                android:elevation="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Copy"
+                android:textColor="#39ff14"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:onClick="cpy"
+                android:layout_margin="10dp"></TextView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/ccOutputTextView"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:textSize="20sp"
+                android:layout_gravity="left"
+                android:textColor="#39ff14"
+                android:layout_marginTop="5dp"
+                android:background="@drawable/dark_blue_gradient_3"
+                android:elevation="6dp"
+                android:layout_margin="10dp"
+                android:padding="10dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            >
+
+            <TextView
+
+
+                android:id="@+id/ccSaveBtn"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:text="Download File"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="#39ff14"
+                android:onClick="save"
+                android:elevation="6dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/blue_border"
+                />
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+                <TextView
+                    android:id="@+id/ccBtnqrgen"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Generate QR"
+                    android:textSize="20sp"
+                    android:textStyle="bold"
+                    android:textColor="#39ff14"
+                    android:onClick="genqr"
+                    android:elevation="6dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/blue_border"
+                    android:gravity="center"
+
+                    />
+
+                <TextView
+                    android:id="@+id/ccScanqr"
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:text="Scan QR "
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="#39ff14"
+                    android:onClick="scanqr"
+                    android:gravity="center"
+                    android:elevation="6dp"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/blue_border"
+                    android:visibility="invisible"/>
+
+
+            </RelativeLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <ImageView
+                android:id="@+id/ccQrimg"
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="25dp"/>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

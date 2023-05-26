@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Learn">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+            <ImageView
+                android:id="@+id/learnBack"
+                android:layout_width="50dp"
+                android:layout_height="45dp"
+                android:src="@drawable/back_black"
+                android:layout_marginLeft="10dp"
+                android:layout_gravity="center"
+                >
+            </ImageView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Learn Encryption and Decryption"
+                android:textSize="20sp"
+                android:textColor="#030303"
+                android:gravity="center|left"
+                android:textStyle="bold"
+                android:layout_marginLeft="10dp"
+                >
+            </TextView>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text8"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold"
+            android:textColor="#030303"
+            android:padding="10dp"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text9"
+            android:textSize="18sp"
+            android:fontFamily="@font/poppins_regular"
+            android:textStyle="bold"
+            android:padding="10dp"
+            android:textColor="#030303"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/ritik"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text10"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            android:textSize="14sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text11"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/singh"
+            android:layout_margin="20sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text12"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text2"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text13"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/ritik1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text14"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="5dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text15"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/ceaser"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text16"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text4"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text17"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/imagee"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text18"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text5"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text19"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text20"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text6"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text21"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitStart"
+            android:src="@drawable/file"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text22"
+            android:textSize="20sp"
+            android:textStyle="bold|italic"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text7"
+            android:textSize="15sp"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text23"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/poppins_regular"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:textAlignment="viewStart"
+            android:textColor="#030303"/>
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,415 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Des"
+    android:orientation="vertical"
+    android:background="@drawable/darkbluegradient"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/desBack"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            ></ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Des Encryption "
+            android:textSize="24dp"
+            android:textStyle="bold"
+            android:gravity="center|left"
+            android:layout_marginLeft="10dp"
+            android:textColor="#39ff14"
+            ></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        >
+
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:id="@+id/switchButton"
+            android:layout_width="330dp"
+            android:layout_height="60dp"
+            android:switchTextAppearance="@style/SwitchTextAppearance"
+            android:layout_gravity="center"
+            android:textOff=""
+            android:textOn=""
+            android:layout_margin="20dp"
+            android:thumb="@drawable/sw_thumb"
+            android:padding="10dp"
+            app:track="@drawable/sw_track"
+            app:showText="true"
+            >
+        </androidx.appcompat.widget.SwitchCompat>
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Encrypt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#39ff14"
+            android:layout_marginLeft="60dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:text="Decrypt"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#39ff14"
+            android:layout_marginLeft="210dp"
+            android:layout_marginTop="30dp"
+
+            ></TextView>
+
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:orientation="horizontal"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            >
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textStyle="bold"
+                android:text="Enter Plain Text"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textColor="#39ff14"
+
+
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/copyBtn"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="20dp"
+                android:background="@drawable/blue_border"
+                android:elevation="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Copy"
+                android:textColor="#39ff14"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="invisible"
+                >
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/deleteBtn"
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="10dp"
+                android:background="@drawable/blue_border"
+                android:elevation="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Delete"
+                android:textColor="#39ff14"
+                android:textSize="14dp"
+                android:textStyle="bold"
+                android:visibility="invisible">
+
+            </TextView>
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <EditText
+        android:id="@+id/normalEditText"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_weight="1"
+        android:background="@drawable/dark_blue_gradient_3"
+        android:layout_margin="10dp"
+        android:elevation="6dp"
+        android:ems="10"
+        android:gravity="top|left"
+        android:inputType="textMultiLine"
+        android:textColor="#39ff14"
+        android:textColorHint="#39ff14"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="5dp"
+        android:padding="15dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/secretCode"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@drawable/dark_blue_gradient_3"
+        android:elevation="6dp"
+        android:layout_margin="10dp"
+        android:ems="10"
+        android:gravity="center|left"
+        android:inputType="text"
+        android:textColor="#39ff14"
+        android:textSize="18dp"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="5dp"
+        android:maxLength="8"
+        android:layout_marginTop="10dp"
+        android:hint="Enter Secret Key"
+        android:textColorHint="#39ff14"
+        android:padding="10dp"
+        android:textStyle="bold">
+
+    </EditText>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+
+        >
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textStyle="bold"
+            android:text="Encrypted Text"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:textColor="#39ff14"
+
+
+            >
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/copyBtn2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/blue_border"
+            android:elevation="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Copy"
+            android:textColor="#39ff14"
+            android:textSize="16dp"
+            android:textStyle="bold"
+
+
+            >
+
+        </TextView>
+        <TextView
+            android:id="@+id/deleteBtn2"
+            android:layout_width="70dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/blue_border"
+            android:elevation="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="Delete"
+            android:textColor="#39ff14"
+            android:textSize="16dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/encryptedTextView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/dark_blue_gradient_3"
+        android:elevation="6dp"
+        android:layout_margin="10dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:textSize="18dp"
+        android:textColor="#39ff14"
+        ></TextView>
+
+    <!--
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            >
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+
+                >
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:textStyle="bold"
+                    android:text="Enter Cipher Text"
+                    android:gravity="center"
+                    android:textSize="18dp"
+                    android:textColor="#ffffff"
+
+                    >
+
+                </TextView>
+
+                <Button
+                    android:id="@+id/cipherCopy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ffffff"
+                    android:text="Copy"
+                    android:textColor="#0007cc"
+                    android:textSize="12dp"
+                    android:textStyle="bold">
+
+                </Button>
+
+                <Button
+                    android:id="@+id/cipherDelete"
+                    android:layout_width="wrap_content"
+                    android:layout_height="30dp"
+                    android:layout_marginLeft="10dp"
+                    android:background="#ffffff"
+                    android:text="Delete"
+                    android:textColor="#0007cc"
+                    android:textSize="12dp"
+                    android:textStyle="bold">
+
+                </Button>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/cipherCount"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/cipherEditText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ffffff"
+            android:ems="10"
+            android:gravity="top|left"
+            android:hint="Enter Encrypted Text"
+            android:inputType="textMultiLine"
+            android:textColor="#0007cc"
+            android:textColorHint="#0007cc"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="35dp"
+            tools:layout_editor_absoluteY="5dp">
+
+        </EditText>
+        -->
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+        <Button
+            android:id="@+id/encryptBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_border"
+            android:elevation="6dp"
+            android:text="Encrypt"
+            android:textColor="#39ff14"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true">
+
+
+        </Button>
+
+        <Button
+            android:id="@+id/decryptBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/blue_border"
+            android:elevation="6dp"
+            android:text="DECRYPT"
+            android:textColor="#39ff14"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_centerHorizontal="true"
+            android:visibility="invisible">
+
+        </Button>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

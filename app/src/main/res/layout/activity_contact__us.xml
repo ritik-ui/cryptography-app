@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Contact_Us"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/darkbluegradient">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:id="@+id/contactBack"
+            android:layout_width="40dp"
+            android:layout_height="35dp"
+            android:src="@drawable/back"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            ></ImageView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:textStyle="bold"
+        android:text="Contact Us"
+        android:textSize="24dp"
+        android:textColor="#39ff14"
+        android:layout_gravity="center"
+        android:gravity="center|left"
+        android:layout_marginLeft="10dp"
+        ></TextView>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/contact2"
+
+        >
+
+    </ImageView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Feel Free to Contact Us :"
+        android:gravity="center"
+        android:textSize="18dp"
+        android:textColor="#39ff14"
+        android:textStyle="bold"
+
+        >
+    </TextView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Email us at :"
+        android:gravity="center|top"
+        android:textSize="18dp"
+        android:textColor="#39ff14"
+        android:textStyle="normal"
+
+        >
+    </TextView>
+    <TextView
+        android:id="@+id/contactEmailTextView"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="raycrypto@gmail.com"
+        android:gravity="center|top"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/instagram"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="5dp"
+            android:onClick="contactInstagram"
+            ></ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/facebook"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="contactFacebook"
+            ></ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/twitter1"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="contactTwitter"
+            ></ImageView>
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/telegram"
+            android:layout_gravity="center"
+            android:layout_margin="5dp"
+            android:elevation="5dp"
+            android:layout_marginLeft="10dp"
+            android:onClick="contactTelegram"
+            ></ImageView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time : 9 AM to 9PM \n (Sunday Closed)"
+        android:textSize="18dp"
+        android:gravity="center"
+        android:textColor="#39ff14"
+        >
+
+    </TextView>
+
+</LinearLayout>
